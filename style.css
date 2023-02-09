@@ -11,17 +11,42 @@ body{
 /* header style */
 
 .banner{
-    
-}
-
-.banner img{
+    background-image: url(images/banner/banner3.png);
     width: 100vw;
-    height: 85vh;
+    height: 808px;
     background-position: center;
     background-size: cover;
 }
+.contant{
+    position: absolute;
+    text-align: right;
+    width: 30%;
+    right: 10%;
+    top: 25%;
+}
+.contant h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.contant p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.header-btn{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+}
 .banner-text {
-    
     width: 40%;
     text-align: right;   
 }
